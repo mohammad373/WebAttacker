@@ -25,7 +25,8 @@ def __baner__():
                               """)
   time.sleep(2)
 
-def __1__():
+def __m__():
+  try:
             __baner__()
             time.sleep(1)
             print("Pleass Enter Your 1 ~ 6")
@@ -47,7 +48,9 @@ def __1__():
             print(Fore.RED + "             [6] "+ Fore.GREEN + " - Who.is" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
             c = int(input(Fore.BLUE + "\n\n[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.GREEN + "Enter Your Number 1" + Fore.RED + " ~ " + Fore.GREEN + "2" +Fore.YELLOW + " ==>  ")
-__1__()
+  except:
+                    pass
+__m__()
                  
             
 if c == 1:
