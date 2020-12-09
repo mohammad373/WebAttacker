@@ -25,32 +25,30 @@ def __baner__():
                               """)
   time.sleep(2)
 
-def __m__():
-  try:
-            __baner__()
-            time.sleep(1)
-            print("Pleass Enter Your 1 ~ 6")
-            print(Fore.RED + "\n             [1] "+ Fore.GREEN + " - Color Text" + Fore.BLUE + " ;) ")
-            print(Fore.BLUE + "                 *****************")
-            time.sleep(0.3)
-            print(Fore.RED + "             [2] "+ Fore.GREEN + " - Your Ip" + Fore.BLUE + " ;) ")
-            print(Fore.BLUE + "                 *****************")
-            time.sleep(0.3)
-            print(Fore.RED + "             [3] "+ Fore.GREEN + " - Open WebSite" + Fore.BLUE + " ;) ")
-            print(Fore.BLUE + "                 *****************")
-            time.sleep(0.3)
-            print(Fore.RED + "             [4] "+ Fore.GREEN + " - Ip Target" + Fore.BLUE + " ;) ")
-            print(Fore.BLUE + "                 *****************")
-            time.sleep(0.3)
-            print(Fore.RED + "             [5] "+ Fore.GREEN + " - Target Is WordPress Or No WordPress" + Fore.BLUE + " ;) ")
-            print(Fore.BLUE + "                 *****************")
-            time.sleep(0.3)
-            print(Fore.RED + "             [6] "+ Fore.GREEN + " - Who.is" + Fore.BLUE + " ;) ")
-            time.sleep(0.3)
-            c = int(input(Fore.BLUE + "\n\n[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.GREEN + "Enter Your Number 1" + Fore.RED + " ~ " + Fore.GREEN + "2" +Fore.YELLOW + " ==>  ")
-  except:
-                    pass
-__m__()
+__baner__()
+time.sleep(2)
+time.sleep(1)
+print("Pleass Enter Your 1 ~ 6")
+print(Fore.RED + "\n             [1] "+ Fore.GREEN + " - Color Text" + Fore.BLUE + " ;) ")
+print(Fore.BLUE + "                 *****************")
+time.sleep(0.3)
+print(Fore.RED + "             [2] "+ Fore.GREEN + " - Your Ip" + Fore.BLUE + " ;) ")
+print(Fore.BLUE + "                 *****************")
+time.sleep(0.3)
+print(Fore.RED + "             [3] "+ Fore.GREEN + " - Open WebSite" + Fore.BLUE + " ;) ")
+print(Fore.BLUE + "                 *****************")
+time.sleep(0.3)
+print(Fore.RED + "             [4] "+ Fore.GREEN + " - Ip Target" + Fore.BLUE + " ;) ")
+print(Fore.BLUE + "                 *****************")
+time.sleep(0.3)
+print(Fore.RED + "             [5] "+ Fore.GREEN + " - Target Is WordPress Or No WordPress" + Fore.BLUE + " ;) ")
+print(Fore.BLUE + "                 *****************")
+time.sleep(0.3)
+print(Fore.RED + "             [6] "+ Fore.GREEN + " - Who.is" + Fore.BLUE + " ;) ")
+time.sleep(0.3)
+c = int(input(Fore.BLUE + "\n\n[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.GREEN + "Enter Your Number 1" + Fore.RED + " ~ " + Fore.GREEN + "2" +Fore.YELLOW + " ==>  ")
+
+
                  
             
 if c == 1:
