@@ -332,16 +332,16 @@ if c == 4 :
               except:
                   pass
           s = socket.gethostbyname(str(target))
-              print(Fore.YELLOW + "\n[!] - Pleass 5 Sec Latter ...")
-              time.sleep(1)
-              print(Fore.YELLOW + "\n[!] - Pleass 4 Sec Latter ...")
-              time.sleep(1)
-              print(Fore.YELLOW + "\n[!] - Pleass 3 Sec Latter ...")
-              time.sleep(1)
-              print(Fore.YELLOW + "\n[!] - Pleass 2 Sec Latter ...")
-              time.sleep(1)
-              print(Fore.YELLOW + "\n[!] - Pleass 1 Sec Latter ...")
-              time.sleep(1)
+          print(Fore.YELLOW + "\n[!] - Pleass 5 Sec Latter ...")
+          time.sleep(1)
+          print(Fore.YELLOW + "\n[!] - Pleass 4 Sec Latter ...")
+          time.sleep(1)
+          print(Fore.YELLOW + "\n[!] - Pleass 3 Sec Latter ...")
+          time.sleep(1)           
+          print(Fore.YELLOW + "\n[!] - Pleass 2 Sec Latter ...")
+          time.sleep(1)
+          print(Fore.YELLOW + "\n[!] - Pleass 1 Sec Latter ...")
+          time.sleep(1)
           print(Fore.RED + "\n[" + Fore.BLUE + "+" + Fore.RED + "]" + Fore.GREEN + "Your Ip Target s : " + s)
       except:
           pass
