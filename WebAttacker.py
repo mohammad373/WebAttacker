@@ -46,12 +46,12 @@ print(Fore.BLUE + "                 *****************")
 time.sleep(0.3)
 print(Fore.RED + "             [6] "+ Fore.GREEN + " - Who.is" + Fore.BLUE + " ;) ")
 time.sleep(0.3)
-c = int(input(Fore.BLUE + "\n\n[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.GREEN + "Enter Your Number 1" + Fore.RED + " ~ " + Fore.GREEN + "2" +Fore.YELLOW + " ==>  ")
+c = int(input(Fore.BLUE + "\n\n[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.GREEN + "Enter Your Number 1" + Fore.RED + " ~ " + Fore.GREEN + "2" +Fore.YELLOW + " ==>  "))
 
 
                  
             
-if c == 1:
+if c == "1":
                     # color Text
       import os
       import sys
